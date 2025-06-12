@@ -1,0 +1,31 @@
+{
+  "mcpServers": {
+    "shell": {
+      "command": "/Library/Frameworks/Python.framework/Versions/3.12/bin/uv",
+      "args": [
+        "--directory",
+        "/Users/oshafran/AI/MCP/shellserver/servers",
+        "run",
+        "shell_server.py"
+      ]
+    },
+    "math": {
+      "command": "/Library/Frameworks/Python.framework/Versions/3.12/bin/uv",
+      "args": [
+        "--directory",
+        "/Users/oshafran/AI/MCP/shellserver/servers",
+        "run",
+        "math_server.py"
+      ]
+    },
+    "weather": {
+      "command": "/Library/Frameworks/Python.framework/Versions/3.12/bin/uv",
+      "args": [
+        "--directory",
+        "/Users/oshafran/AI/MCP/shellserver/servers",
+        "run",
+        "weather_server.py"
+      ]
+    }
+  }
+}
